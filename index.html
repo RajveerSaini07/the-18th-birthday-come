@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090f1d">
+  <meta name="description" content="A little universe, made just for you.">
+  <title>THE 24th — A little universe, made just for you</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="THE 24th home">THE <span>24</span>th</a>
+    <div class="top-actions">
+      <span class="sound-label" id="soundLabel">A Thousand Years · off</span>
+      <button class="sound-toggle" id="soundToggle" aria-label="Toggle music" title="Toggle music">♫</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="eyebrow reveal">A PRIVATE LITTLE UNIVERSE</div>
+      <div class="hero-edition reveal">A keepsake for 24 November 2026</div>
+      <h1 class="hero-title reveal">Today, this little<br><em>universe</em> belongs to you.</h1>
+      <p class="hero-sub reveal">A tiny surprise for someone who makes ordinary days feel extraordinary.</p>
+      <button class="gift-button reveal" id="openGift" aria-label="Open your birthday surprise">
+        <span class="gift-glow"></span>
+        <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span>
+        <span class="gift-box">
+          <span class="gift-lid"></span><span class="gift-ribbon-v"></span><span class="gift-ribbon-h"></span>
+          <span class="gift-bow"></span>
+        </span>
+        <span class="gift-caption">Tap to open your surprise</span>
+        <span class="gift-subcaption">A universe of memories is waiting</span>
+      </button>
+      <div class="scroll-note reveal">OPEN THE GIFT TO BEGIN <span>✦</span></div>
+    </section>
+
+    <section class="welcome section content-section" id="welcome">
+      <div class="section-kicker reveal">A NOTE BEFORE WE BEGIN</div>
+      <h2 class="section-title reveal">Some people make life<br><em>feel a little brighter.</em></h2>
+      <p class="body-copy reveal">And then there are people who become part of the story itself. Today is a small celebration of you, our memories, and all the beautiful moments still waiting ahead.</p>
+      <div class="ornament reveal"><span>✦</span><i></i><span>✦</span></div>
+      <div class="constellation-wrap reveal" aria-label="Interactive friendship constellation">
+        <div class="constellation-orbit orbit-a"></div><div class="constellation-orbit orbit-b"></div>
+        <span class="constellation-star star-center">✦</span>
+        <button class="memory-star star-2008" data-memory="2008" aria-label="Reveal 2008 memory">2008</button>
+        <button class="memory-star star-2012" data-memory="2012" aria-label="Reveal 2012 memory">2012</button>
+        <button class="memory-star star-adventure" data-memory="adventure" aria-label="Reveal adventure memory">✧</button>
+        <button class="memory-star star-today" data-memory="today" aria-label="Reveal birthday memory">24</button>
+        <div class="constellation-caption" id="constellationCaption">Touch a star. Every one holds a little piece of our story.</div>
+      </div>
+    </section>
+
+    <section class="letter-section section content-section" id="letter">
+      <div class="section-kicker reveal">CHAPTER I · A LETTER FOR YOU</div>
+      <h2 class="section-title reveal">A few words from<br><em>the heart.</em></h2>
+      <div class="envelope-wrap reveal">
+        <button class="envelope" id="openLetter" aria-label="Open the birthday letter">
+          <span class="envelope-flap"></span><span class="envelope-paper">For you, with love <b>♥</b></span>
+          <span class="envelope-front"></span>
+        </button>
+        <p class="tap-hint" id="letterHint">Tap the envelope to unfold your letter</p>
+      </div>
+      <article class="letter-paper" id="letterPaper" aria-label="Birthday letter">
+        <div class="paper-top">A LITTLE LETTER, JUST FOR YOU</div>
+        <h3>To Someone Who Holds a Special Place in My Heart ❤️</h3>
+        <div class="letter-content">
+          <p>Happy Birthday to you! 💞</p>
+          <p>Today is not just another date on the calendar. It is the day someone as wonderful as you came into this world, and I genuinely hope life gives you countless reasons to smile today and every day that follows.</p>
+          <p>I do not know if words will ever be enough to express everything I want to say, but today I want to try.</p>
+          <p>First of all, I hope you never forget how special you are. There is something about you that makes you different from everyone else. Maybe it’s your smile, your personality, the little things you do, or simply the way you make ordinary moments feel a little more beautiful. Whatever it is, you have a place in my thoughts that words cannot easily explain.</p>
+          <p>Sometimes, we meet people without knowing how important they will eventually become to us. And sometimes, without even realising it, one person becomes someone whose happiness genuinely matters to us. For me, you’re that person.</p>
+          <p>I wish I could give you a thousand beautiful things today, but if I could give you just one gift, it would be the ability to see yourself through the eyes of someone who truly appreciates you. Maybe then you’d understand how precious, wonderful and irreplaceable you are.</p>
+          <p>I wish you a life filled with genuine happiness, beautiful surprises, endless opportunities and dreams that turn into reality. May you always have the courage to chase what your heart desires. May you never lose your beautiful smile, even when life gets difficult. And whenever things don’t go as planned, I hope you remember that difficult days are only temporary, and brighter days are always possible.</p>
+          <p>I also want you to know that you do not have to be perfect to be special. You do not have to impress anyone or pretend to be someone you’re not. Just being yourself is already something worth appreciating.</p>
+          <p>If life were a book, I would wish that your next chapter would be one of the most beautiful ones yet. A chapter filled with laughter, achievements, unforgettable memories, unexpected blessings and people who genuinely value you.</p>
+          <p>And perhaps one day, when you look back at this birthday, I hope you will remember that somewhere, someone was wishing you happiness from the bottom of their heart.</p>
+          <p>I may not always find the perfect words, and I may not always know how to express what I feel, but one thing is certain: your happiness matters to me, and I genuinely wish the very best for you.</p>
+          <p>So here is to you, your beautiful heart, your dreams, your smile and all the wonderful things waiting for you.</p>
+          <p>Never stop being the person you are. Never make yourself smaller to fit into someone else is expectations. Keep shining in your own way.</p>
+          <p>Happy Birthday once again! 🎂❤️</p>
+          <p>May this year be kinder to you, happier than the last, and filled with moments that make your heart smile.</p>
+          <p>And if there is one thing I hope you remember after reading this letter, it is this:</p>
+          <p class="letter-highlight">You are not just another person in this world. You are someone whose existence makes this world a little more special to me.</p>
+          <p class="signature">With lots of warmth, care and heartfelt wishes. 💌</p>
+        </div>
+        <div class="paper-bottom">MADE WITH CARE · THE 24th</div>
+      </article>
+    </section>
+
+    <section class="memories section content-section" id="memories">
+      <div class="section-kicker reveal">CHAPTER II · OUR LITTLE TIMELINE</div>
+      <h2 class="section-title reveal">Years pass.<br><em>Some memories stay.</em></h2>
+      <p class="body-copy reveal">No photographs needed. Some moments are already saved somewhere better.</p>
+      <div class="timeline">
+        <div class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-year">2008</div><div class="memory-card"><h3>The beginning</h3><p>A friendship began, without either of us knowing how many memories were waiting ahead.</p></div></div>
+        <div class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-year">2012</div><div class="memory-card"><h3>Growing up together</h3><p>More time together, more laughter, and the kind of familiarity that turns ordinary days into stories.</p></div></div>
+        <div class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-year">All those little adventures</div><div class="memory-card"><h3>The moments that became ours</h3><p>Bike trips, sharing lunch, watching movies, holding hands, and collecting countless little memories along the way.</p></div></div>
+        <div class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-year">24 NOV 2026</div><div class="memory-card"><h3>Her day, her universe</h3><p>A new birthday, another chapter, and a thousand reasons to smile.</p></div></div>
+      </div>
+    </section>
+
+    <section class="vault-section section content-section" id="vault">
+      <div class="section-kicker reveal">CHAPTER III · A LITTLE SECRET</div>
+      <h2 class="section-title reveal">Every good story<br>has a <em>secret door.</em></h2>
+      <p class="body-copy reveal">There is a tiny memory hidden in this vault. Can you guess the code?</p>
+      <div class="vault-card reveal">
+        <div class="vault-lock">✧</div>
+        <p class="vault-clue">CLUE: Think about the year our story began.</p>
+        <div class="code-display" id="codeDisplay" aria-label="Three digit code">· · ·</div>
+        <div class="keypad" id="keypad">
+          <button data-key="1">1</button><button data-key="2">2</button><button data-key="3">3</button>
+          <button data-key="4">4</button><button data-key="5">5</button><button data-key="6">6</button>
+          <button data-key="7">7</button><button data-key="8">8</button><button data-key="9">9</button>
+          <button class="key-clear" data-key="clear">CLEAR</button><button data-key="0">0</button><button class="key-enter" data-key="enter">OPEN</button>
+        </div>
+        <p class="vault-feedback" id="vaultFeedback" aria-live="polite"></p>
+        <div class="vault-reveal" id="vaultReveal"><span>✦</span><h3>Unlocked!</h3><p>The best memories aren't stored in a vault. They're carried with us. Here's to many more adventures, laughs and little moments together. ❤️</p><p class="vault-next-hint">The secret is open. Turn to the next chapter when you're ready to make your wish.</p></div>
+      </div>
+    </section>
+
+    <section class="finale section content-section" id="finale">
+      <div class="finale-stars" aria-hidden="true"></div>
+      <div class="section-kicker reveal">THE FINAL CHAPTER</div>
+      <div class="finale-crown reveal">✧</div>
+      <h2 class="finale-title reveal">Happy Birthday,<br><em>My Bestie</em> <span>❤️</span></h2>
+      <p class="finale-copy reveal">May your days be full of laughter, your dreams find their way to you, and your heart always have a reason to smile.</p>
+      <button class="firework-button reveal" id="celebrate">Make a wish ✨</button>
+      <p class="final-sign reveal">A little universe, made just for you.<br><span>THE 24th · 24 NOVEMBER 2026</span></p>
+      <canvas id="fireworks" aria-hidden="true"></canvas>
+      <div class="finale-confetti" aria-hidden="true">✦　✧　♥　✦　✧　♥</div>
+    </section>
+  </main>
+
+  <footer><span>THE 24th</span><span>Made with warmth, care & a little bit of magic ♥</span></footer>
+  <audio id="birthdayTrack" src="assets/music/a-thousand-years-instrumental.mp3" preload="metadata" loop></audio>
+  <script src="js/config.js"></script><script src="js/music.js"></script><script src="js/puzzle.js"></script><script src="js/main.js"></script>
+</body>
+</html>
